@@ -1,0 +1,187 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    min-width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(#dbd7d7 70%, #a62121 30%) 0% 0% / 100vw 100vh no-repeat fixed;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 35%;
+    min-width: 420px;
+    padding-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 20px 30px 25px;
+}
+
+.mainSection {
+    margin-left: 10%;
+    width: 100%;
+    height: fit-content;
+}
+
+.section1,
+.section2,
+.section3 {
+    width: 90%;
+    height: fit-content;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7%;
+}
+
+.text {
+    color: #a62121;
+    font-size: 8px;
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+    margin: 3rem auto 0px;
+}
+
+.mypic {
+    text-align: center;
+    position: relative;
+    margin: -0.3rem 2rem 0px auto;
+}
+
+.mypic img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.section2 {
+    background-color: #dbd7d7;
+    padding-top: 25%;
+    padding-left: 5%;
+    padding-bottom: 8%;
+    margin-top: -15%;
+}
+
+.information {
+    width: 100%;
+    height: fit-content;
+}
+
+.firstHead,
+.header,
+.contact,
+.lastHeader,
+.secondContent,
+.firstElemnt,
+.date,
+.names,
+.Descriptions {
+    display: flex;
+}
+.header {
+    width: 50%;
+}
+.information h1 {
+    font-size: 50px;
+    line-height: 90%;
+}
+.contact {
+    width: 50%;
+}
+.contact p {
+    color: #a62121;
+    font-size: 10px;
+    line-height: 15px;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+.lastHeader {
+    margin-top: 7px;
+}
+.firstContent {
+    width: 80%;
+}
+.firstContent p {
+    color: #a62121;
+    font-weight: 500;
+}
+.secondContent {
+    justify-content: end;
+    width: 20%;
+}
+.socialMedia {
+    width: fit-content;
+    height: fit-content;
+}
+.socialMedia a {
+    width: fit-content;
+    margin: 0px;
+}
+.socialMedia img {
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+}
+.section3 {
+    margin-top: 5%;
+}
+.lastContainer {
+    width: 100%;
+}
+.lastContainer section {
+    width: 100%;
+}
+.firstElemnt h1 {
+    color: #a62121;
+}
+.secondElemnt {
+    margin-top: 10px;
+}
+.date p {
+    font-style: italic;
+    font-size: 10px;
+    font-weight: 500;
+}
+.names p {
+    color: #a62121;
+    font-size: 10px;
+}
+.names p span {
+    color: #000000;
+    font-weight: bold;
+}
+.Descriptions p {
+    font-size: 8px;
+    font-weight: 200;
+}
+@media screen and (max-width: 600px){
+.text {
+    font-size: 5px;
+}    
+}
+@media screen and (min-width: 601px) and (max-width: 900px){
+.text {
+    font-size: 6px;
+}    
+}
+@media screen and (min-width: 901px){
+.text {
+    font-size: 7px;
+}    
+}
+
